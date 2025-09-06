@@ -9,9 +9,9 @@ Please see the slides for code walkthrough and conceptual explanations<3
 ## Projects
 
 ### 1. Names Generator (Learning MLP Basics)
-Purpose: Learn the foundations of neural networks (MLPs) by generating realistic-looking names one character at a time.  
+Learn the foundations of Multilayer Perceptrons (MLPs) by generating realistic-looking names one character at a time
 
-- **Progression through 4 versions**:  
+**Progression through 4 versions**:  
   1. **Bigram model** – frequency table of character pairs  
   2. **MLP** – single hidden layer predicting next character  
   3. **Embeddings + Normalization (BatchNorm, Kaiming init)** – improved input representation and stable training  
@@ -22,9 +22,9 @@ Slides: [`Building Names Generator - MLP.pdf`](./slides/Building%20Names%20Gener
 ---
 
 ### 2. GPT From Scratch
-Purpose: Scale up from character-level MLPs to a transformer-based GPT language model trained on Shakespeare text.  
+Scale up from character-level MLPs to a transformer-based GPT language model trained on Shakespeare
 
-- **Components implemented**:
+**Components implemented**:
   - Data batching and autoregressive setup  
   - **Attention heads** with queries, keys, values  
   - **Multi-head attention** for richer context  
@@ -33,7 +33,7 @@ Purpose: Scale up from character-level MLPs to a transformer-based GPT language 
   - Dropout and residuals for stable training  
   - Training loop with AdamW optimizer  
 
-- **Results**:
+**Results**:
   - Learnt Shakespeare-like structure (character names, dialogues)  
   - Generated text with recognisable words and formatting  
 
@@ -61,20 +61,6 @@ gpt-from-scratch/
 ├── data/ # texts used for training
 ├── requirements.txt
 └── README.md
-```
-
----
-
-## Getting Started
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-Run the notebooks! 
-```bash
-jupyter notebook notebooks/final_gpt.ipynb
 ```
 
 ## Credits!!
