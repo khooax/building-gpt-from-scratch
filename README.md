@@ -34,8 +34,10 @@ Scale up from character-level MLPs to a transformer-based GPT language model tra
   - Training loop with AdamW optimizer  
 
 **Results**:
-  - Learnt Shakespeare-like structure (character names, dialogues)  
-  - Generated text with recognisable words and formatting  
+  - Learnt Shakespeare-like structure (character names, dialogue format)  
+  - Generated text with recognisable words and formatting
+
+![Snippet of slides showing model results](./images/gpt-summary.png)
 
 Slides: [`Building GPT.pdf`](./slides/Building%20GPT.pdf)  
 
