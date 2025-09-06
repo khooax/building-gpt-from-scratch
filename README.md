@@ -1,6 +1,6 @@
 # GPT From Scratch
 
-This repository documents my journey of building a GPT-style language model from the ground up in PyTorch.  
+This repo documents my journey of building a **mini GPT** model from scratch in PyTorch! 
 It starts with a simple **Names Generator** project to learn neural network fundamentals, then scales up to a full **GPT implementation** with attention and transformer blocks. 
 Please see the slides for code walkthrough and conceptual explanations<3
 
@@ -72,4 +72,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the notebooks:) 
+Run the notebooks! 
+```bash
+jupyter notebook notebooks/final_gpt.ipynb
+```
+
+## Credits!!
+Credits to Andrej Karpathy’s excellent lectures and makemore series. 
+All code and notes here were built as a learning exercise to deepen understanding of modern language models.
