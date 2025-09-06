@@ -57,8 +57,8 @@ gpt-from-scratch/
 │ ├── Building Names Generator - MLP.pdf
 │ └── Building GPT.pdf
 │
-├── images/ # diagrams & figures used in notebooks
-├── src/ # optional: reusable model & utility code
+├── images/ # diagrams used in notebooks
+├── data/ # texts used for training
 ├── requirements.txt
 └── README.md
 ```
