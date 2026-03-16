@@ -1,14 +1,12 @@
 # Neural Language Models From Scratch
 
-A progressive, ground-up implementation of language models — from bigram frequency tables to a character-level GPT — with a deep dive into BatchNorm and attention mechanisms.
+Implemented series of language models from scratch — from bigram frequency tables to a character-level GPT — with a deep dive into BatchNorm and attention mechanisms
 
 ---
 
 ## Overview
 
-This project builds a series of increasingly powerful character-level language models, each motivated by the shortcomings of the previous one. The names generation task (predict the next character in a name) provides a controlled benchmark where improvements are easy to see and measure.
-
-The final notebook extends the same ideas to a small GPT trained on Shakespeare — demonstrating that the same principles scale to real sequence modelling.
+This project builds a series of increasingly powerful character-level language models, each motivated by the weakness of the previous one. The simplest models are trained to generate names by predicting the next character, while the most advanced one (Transformer) generates Shakespeare like text autoregressively. 
 
 | Notebook | Model | Val Loss | Key Concepts |
 |---|---|---|---|
