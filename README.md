@@ -36,9 +36,11 @@ Each step introduces one key idea:
 4. **GPT**: Replace fixed-context MLP with self-attention. Tokens dynamically aggregate information from all prior tokens, weighted by learned query-key affinities.
 
 --- 
+
 **Key features of project:**
-- `02_mlp.ipynb` and `03_mlp_batchnorm.ipynb` implement the neural network layers from scratch (without importing libraries from PyTorch)
-- Full narrative arc, inline explanations and diagnostic visualisations explaining why each architectural improvement exists and its impact 
+- Diagnostic visualisations explaining why each architectural improvement exists and its impact (highlights: `03_mlp_batchnorm.ipynb` plots on gradients and activation distributions pre and post normalisation)
+- Implementation of transformer architecture
+- Implementation of neural network layers from scratch in `02_mlp.ipynb` and `03_mlp_batchnorm.ipynb` without importing libraries from PyTorch
 
 ---
 
@@ -103,6 +105,7 @@ sanay, zuham, zaison, agondre, karina, joberlee
 **Why character-level?** Character-level models require no tokeniser, keep vocabulary tiny (27 tokens), and make the full pipeline transparent — every piece from data loading to generation is visible and debuggable.
 
 **Why names generator first, then Shakespeare?** Names give a short feedback loop: you can see whether generated outputs look plausible immediately (are they pronounceable?). Shakespeare then demonstrates the same attention mechanisms work on real language.
+
 ---
 
 
