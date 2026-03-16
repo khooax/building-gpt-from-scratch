@@ -44,23 +44,18 @@ Each step introduces one key idea:
 
 ---
 
-### Architectural Concepts
+### Neural Network Concepts
 - Character-level tokenisation and vocabulary construction
 - Embedding tables (learned lookup)
-- Context window and block size
 - Kaiming (He) initialisation
 - Batch Normalisation: forward pass, running stats, inference mode
 - Layer Normalisation (used in transformers)
 - Residual connections and why they help gradient flow
 
-### Attention & Transformers
-  - Data batching and autoregressive setup  
-  - **Attention heads** with queries, keys, values  
-  - **Multi-head attention** for richer context  
-  - **Transformer blocks** (attention + feedforward + residual + layer norm)  
-  - Positional embeddings to preserve order  
-  - Dropout and residuals for stable training  
-  - Training loop with AdamW optimizer  
+### Transformer architecture
+  - Token and positional embeddings
+  - **3 Transformer Blocks** (each with 2 attention heads + feedforward + residual connection + layer norm) 
+  - Linear layer + Softmax Layer
 
 Slides: [`Building Names Generator - MLP.pdf`](./slides/Building%20Names%20Generator%20-%20MLP.pdf)  
 Slides: [`Building GPT.pdf`](./slides/Building%20GPT.pdf)  
