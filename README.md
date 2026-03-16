@@ -2,6 +2,8 @@
 
 Implemented series of language models from scratch — from bigram frequency tables to a character-level GPT — with a deep dive into BatchNorm and attention mechanisms
 
+Referenced  Andrej Karpathy's makemore series 
+
 ---
 
 ## Overview
